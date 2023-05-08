@@ -1,0 +1,123 @@
+/* Write your CSS here */
+.bgContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 50vh;
+}
+.formContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 73%;
+}
+.imageContainer {
+  align-self: flex-end;
+}
+
+.form {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.hr {
+  background-color: #cbd2d9;
+  height: 3px;
+  width: 73%;
+  margin-top: 15px;
+}
+.head {
+  color: #1e293b;
+  font-size: 50px;
+  font-family: 'Roboto';
+}
+.para {
+  color: #475569;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.inputName {
+  width: 280px;
+  height: 30px;
+  box-shadow: 0 4px 16px 0 #cdd2d9;
+  border: 1px solid #cbd2d9;
+  padding-left: 10px;
+  color: black;
+  font-weight: 500;
+  font-family: 'Roboto';
+  outline: none;
+}
+.textarea {
+  box-shadow: 0 4px 16px 0 #cdd2d9;
+  border: 1px solid #cbd2d9;
+  padding-left: 10px;
+  color: black;
+  font-weight: 500;
+  font-family: 'Roboto';
+  outline: none;
+}
+.button {
+  background-color: #0284c7;
+  color: white;
+  font-size: 15px;
+  font-family: 'Roboto';
+  border: 0px solid white;
+  height: 30px;
+  width: 120px;
+  border-radius: 3px;
+}
+.image {
+  width: 400px;
+}
+.number {
+  background-color: #0284c7;
+  color: white;
+  border-radius: 2px;
+  padding: 3px;
+  width: 20px;
+  margin-right: 3px;
+  text-align: center;
+}
+.commentHead {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 34%;
+}
+.list {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .bgContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh;
+  }
+  .formContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .image {
+    width: 250px;
+  }
+
+  .button {
+    margin-bottom: 10px;
+  }
+  .commentHead {
+    margin-left: 35px;
+  }
+}
